@@ -1,0 +1,46 @@
+.preview {
+	height: 100vh;
+	background-position: center top;
+	background-image: url(https://thumb.tildacdn.com/tild3935-6630-4436-b963-343033303234/-/format/webp/201404-w-hot-air-bal.jpg);
+	&__title {
+		font-family: $sans-serif;
+		font-size: 70px;
+		padding: 24px 0 38px 0;
+		font-weight: 600;
+		color: #fff;
+	}
+	&__description {
+		font-family: $sans-serif;
+		color: #ffffff;
+		font-size: 30px;
+		font-weight: 100;
+		padding: 0 0 15px;
+		text-transform: uppercase;
+	}
+	&__button {
+		color: #000000;
+		background-color: #e0e0e0;
+		font-weight: 500;
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 10px;
+		&:hover {
+			color: #ffffff;
+			background-color: #905353;
+		}
+	}
+}
+.glossary-top {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	top: -30px;
+	margin-bottom: -60px;
+	@include breakpoint(tablet-screen) {
+		top: -50px;
+		margin-bottom: -100px;
+	}
+	@include breakpoint(desktop-screen) {
+		height: 200px;
+	}
+}
