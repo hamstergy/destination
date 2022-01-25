@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 .htaccess
-
 # wordpress specific
 wp-config.php
 wp-content/uploads/
